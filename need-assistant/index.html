@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Need Assistant | Is It Legal Sid?</title>
+  <meta name="description" content="Tell us about your matter and book time directly with our team." />
+  <link rel="canonical" href="https://www.isitlegalsid.com/need-assistant/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.isitlegalsid.com/need-assistant/" />
+  <meta property="og:site_name" content="Is It Legal Sid?" />
+  <meta property="og:title" content="Need Assistant | Is It Legal Sid?" />
+  <meta property="og:description" content="Tell us about your matter and book time directly with our team." />
+  <meta property="og:image" content="https://www.isitlegalsid.com/images/og-image.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Need Assistant | Is It Legal Sid?" />
+  <meta name="twitter:description" content="Tell us about your matter and book time directly with our team." />
+  <meta name="twitter:image" content="https://www.isitlegalsid.com/images/og-image.png" />
+
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+  <link rel="icon" href="/images/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/images/logo-mark-512.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-shell">
+        <a href="/" class="logo">
+          <img src="/images/logo-mark.png" alt="Is It Legal Sid? logo" width="34" height="45" />
+          <span>Is It Legal Sid<span class="mark">?</span></span>
+        </a>
+
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/" data-nav-link>Home</a>
+          <a href="/about/" data-nav-link>About</a>
+          <a href="/blog/" data-nav-link>Blog</a>
+          <a href="/need-assistant/" data-nav-link>Need Assistant</a>
+          <a href="/contact/" data-nav-link>Contact Us</a>
+        </nav>
+
+        <a href="/need-assistant/" class="btn-outline header-cta">Book a consultation</a>
+
+        <details class="mobile-nav">
+          <summary aria-label="Open menu">Menu</summary>
+          <nav class="mobile-nav-panel" aria-label="Mobile">
+            <a href="/">Home</a>
+            <a href="/about/">About</a>
+            <a href="/blog/">Blog</a>
+            <a href="/need-assistant/">Need Assistant</a>
+            <a href="/contact/">Contact Us</a>
+            <a href="/need-assistant/" class="btn-outline">Book a consultation</a>
+          </nav>
+        </details>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="container section-pad">
+      <img src="/images/icon-assistant.svg" alt="" class="page-intro-icon" />
+      <p class="clause-mark">§ Need Assistant</p>
+      <h1 class="eyebrow-space assistant-intro" style="font-size:2.25rem;">Tell us what's going on. We'll take it from there.</h1>
+      <p class="text-muted assistant-intro" style="margin-top:1rem;">Fill in a few details below and you'll be able to book a time directly on our calendar &mdash; no back-and-forth emails.</p>
+
+      <div style="margin-top:3.5rem;padding-top:3.5rem;border-top:1px solid var(--color-hairline);max-width:48rem;">
+
+        <!-- Step 1: intake form -->
+        <form id="intake-form" class="form-grid two-col" novalidate>
+          <div class="field">
+            <label for="name">Full name</label>
+            <input id="name" name="name" required placeholder="Your full name" />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com" />
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="+91 00000 00000" />
+          </div>
+          <div class="field">
+            <label for="matter">Matter type</label>
+            <select id="matter" name="matter"></select>
+          </div>
+          <div class="field full">
+            <label for="description">Briefly, what's going on?</label>
+            <textarea id="description" name="description" rows="5" required placeholder="A few lines is enough — we'll go deeper on the call."></textarea>
+          </div>
+          <div class="field full">
+            <button type="submit" class="btn-solid" id="intake-submit">Continue to booking</button>
+            <p class="form-error hidden" id="intake-error">Something went wrong. Please try again, or email us directly.</p>
+          </div>
+        </form>
+
+        <!-- Step 2: booking (shown after the form is submitted) -->
+        <div id="booking-step" class="hidden">
+          <div class="form-note" id="booking-note"></div>
+          <div class="calendly-wrapper">
+            <div class="calendly-inline-widget" id="calendly-embed" style="min-width:280px;height:700px;"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-logo">
+          <img src="/images/logo-mark-light.png" alt="Is It Legal Sid? logo" width="32" height="43" />
+          <span class="footer-logo-text">Is It Legal Sid<span style="color:var(--color-brass-light);">?</span></span>
+        </p>
+        <p class="footer-desc">Making law make sense. Sid Legal Advisory And Services LLP advises founders, creators and businesses across 16+ practice areas including corporate, crypto, banking, criminal, probate and matrimonial matters.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/isitlegalsid/">Instagram</a>
+          <a href="https://www.linkedin.com/company/is-it-legal-sid">LinkedIn</a>
+          <a href="https://x.com/is_it_legal_sid">X</a>
+          <a href="https://www.youtube.com/@isitlegalsid">YouTube</a>
+        </div>
+      </div>
+
+      <div>
+        <p class="footer-heading">§ Navigate</p>
+        <ul class="footer-list">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/need-assistant/">Need Assistant</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="footer-heading">§ Reach us</p>
+        <ul class="footer-list">
+          <li><a href="mailto:team@isitlegalsid.com">team@isitlegalsid.com</a></li>
+          <li><a href="mailto:enquiry@isitlegalsid.com">enquiry@isitlegalsid.com</a></li>
+          <li><a href="https://wa.me/918368408919">Phone (WhatsApp): +91 83684 08919</a></li>
+          <li>India: B1/160, Ground Floor, DLF, Ghaziabad, U.P. - 201005</li>
+          <li>US: 110-69 63rd Ave, Forest Hills, NY 11375, United States</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span data-current-year>2026</span> Sid Legal Advisory And Services LLP. All rights reserved.</p>
+        <p>In compliance with the Advocates Act, 1961, nothing on this website constitutes solicitation or advertisement. Information here is for general awareness only and is not legal advice — please seek independent counsel before acting on it.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/site-config.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/need-assistant.js"></script>
+</body>
+</html>

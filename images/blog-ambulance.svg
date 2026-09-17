@@ -1,0 +1,24 @@
+<svg viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of an ambulance representing emergency vehicle regulation">
+  <rect width="1200" height="500" fill="#FAF8F5"/>
+  <g opacity="0.5">
+    <circle cx="80" cy="80" r="2.5" fill="#141D2E"/><circle cx="140" cy="80" r="2.5" fill="#141D2E"/><circle cx="200" cy="80" r="2.5" fill="#141D2E"/>
+    <circle cx="80" cy="140" r="2.5" fill="#141D2E"/><circle cx="140" cy="140" r="2.5" fill="#141D2E"/><circle cx="200" cy="140" r="2.5" fill="#141D2E"/>
+    <circle cx="1000" cy="380" r="2.5" fill="#141D2E"/><circle cx="1060" cy="380" r="2.5" fill="#141D2E"/><circle cx="1120" cy="380" r="2.5" fill="#141D2E"/>
+    <circle cx="1000" cy="420" r="2.5" fill="#141D2E"/><circle cx="1060" cy="420" r="2.5" fill="#141D2E"/><circle cx="1120" cy="420" r="2.5" fill="#141D2E"/>
+  </g>
+  <circle cx="600" cy="250" r="150" fill="#F3A916" opacity="0.1"/>
+
+  <g transform="translate(430,175)">
+    <rect x="0" y="60" width="270" height="90" rx="8" fill="#FFFFFF" stroke="#141D2E" stroke-width="5"/>
+    <path d="M270,90 h55 l35,40 v20 h-90 z" fill="#FFFFFF" stroke="#141D2E" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="90" y="30" width="90" height="30" rx="4" fill="#FFFFFF" stroke="#141D2E" stroke-width="5"/>
+    <line x1="120" y1="90" x2="150" y2="90" stroke="#F3A916" stroke-width="10" stroke-linecap="round"/>
+    <line x1="135" y1="75" x2="135" y2="105" stroke="#F3A916" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="55" cy="160" r="26" fill="#141D2E"/>
+    <circle cx="55" cy="160" r="10" fill="#FAF8F5"/>
+    <circle cx="255" cy="160" r="26" fill="#141D2E"/>
+    <circle cx="255" cy="160" r="10" fill="#FAF8F5"/>
+    <line x1="335" y1="150" x2="365" y2="150" stroke="#141D2E" stroke-width="5" stroke-linecap="round"/>
+    <line x1="335" y1="165" x2="355" y2="165" stroke="#141D2E" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

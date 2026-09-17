@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a car and a road, representing motor vehicle and hit-and-run law">
+  <rect width="1200" height="500" fill="#FAF8F5"/>
+  <g opacity="0.5">
+    <circle cx="1080" cy="90" r="2.5" fill="#141D2E"/><circle cx="1140" cy="90" r="2.5" fill="#141D2E"/>
+    <circle cx="1080" cy="130" r="2.5" fill="#141D2E"/><circle cx="1140" cy="130" r="2.5" fill="#141D2E"/>
+    <circle cx="120" cy="400" r="2.5" fill="#141D2E"/><circle cx="180" cy="400" r="2.5" fill="#141D2E"/>
+    <circle cx="120" cy="440" r="2.5" fill="#141D2E"/><circle cx="180" cy="440" r="2.5" fill="#141D2E"/>
+  </g>
+  <circle cx="600" cy="250" r="150" fill="#F3A916" opacity="0.1"/>
+
+  <line x1="0" y1="370" x2="1200" y2="370" stroke="#141D2E" stroke-width="4"/>
+  <line x1="40" y1="370" x2="90" y2="370" stroke="#F3A916" stroke-width="6" stroke-linecap="round"/>
+  <line x1="160" y1="370" x2="210" y2="370" stroke="#F3A916" stroke-width="6" stroke-linecap="round"/>
+  <line x1="280" y1="370" x2="330" y2="370" stroke="#F3A916" stroke-width="6" stroke-linecap="round"/>
+  <line x1="870" y1="370" x2="920" y2="370" stroke="#F3A916" stroke-width="6" stroke-linecap="round"/>
+  <line x1="990" y1="370" x2="1040" y2="370" stroke="#F3A916" stroke-width="6" stroke-linecap="round"/>
+  <line x1="1110" y1="370" x2="1160" y2="370" stroke="#F3A916" stroke-width="6" stroke-linecap="round"/>
+
+  <g transform="translate(420,190)">
+    <path d="M20,110 L55,55 Q70,35 100,35 L260,35 Q290,35 305,55 L340,110 Z" fill="#FFFFFF" stroke="#141D2E" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M90,42 L120,42 L110,80 L75,80 Z" fill="#F3A916" opacity="0.25"/>
+    <path d="M180,42 L250,42 L262,80 L192,80 Z" fill="#F3A916" opacity="0.25"/>
+    <rect x="10" y="105" width="340" height="18" rx="4" fill="#FFFFFF" stroke="#141D2E" stroke-width="5"/>
+    <circle cx="85" cy="128" r="24" fill="#141D2E"/>
+    <circle cx="85" cy="128" r="9" fill="#FAF8F5"/>
+    <circle cx="285" cy="128" r="24" fill="#141D2E"/>
+    <circle cx="285" cy="128" r="9" fill="#FAF8F5"/>
+  </g>
+
+  <g transform="translate(870,150) rotate(20)">
+    <path d="M0,0 L38,0 L19,-30 Z" fill="none" stroke="#141D2E" stroke-width="5" stroke-linejoin="round"/>
+  </g>
+</svg>
