@@ -50,9 +50,13 @@
 
         <a href="/need-assistant/" class="btn-outline header-cta">Book a consultation</a>
 
-        <details class="mobile-nav">
-          <summary aria-label="Open menu">Menu</summary>
-          <nav class="mobile-nav-panel" aria-label="Mobile">
+        <div class="mobile-nav" aria-label="Mobile menu">
+          <button type="button" class="mobile-nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav-panel">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <nav id="mobile-nav-panel" class="mobile-nav-panel" aria-label="Mobile navigation">
             <a href="/">Home</a>
             <a href="/about/">About</a>
             <a href="/blog/">Blog</a>
@@ -60,7 +64,7 @@
             <a href="/contact/">Contact Us</a>
             <a href="/need-assistant/" class="btn-outline">Book a consultation</a>
           </nav>
-        </details>
+        </div>
       </div>
     </div>
   </header>
